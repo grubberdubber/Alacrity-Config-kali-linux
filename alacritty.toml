@@ -1,0 +1,40 @@
+[window]
+padding = { x = 2, y = 2 }
+opacity = 0.85
+dynamic_title = true
+
+[font]
+size = 9.0
+normal = { family = "monospace", style = "Regular" }
+
+[colors.primary]
+background = '#0d0f14'
+foreground = '#FFFFFF' # Texto general blanco puro
+
+[colors.normal]
+black =   '#1b1e28'
+red =     '#ff2c70' 
+green =   '#a2ff00' 
+yellow =  '#ffcc00' 
+blue =    '#00d5ff' 
+magenta = '#cc66ff' 
+cyan =    '#48ffda' 
+# Este color (white) es el que usan los archivos .txt en el listado
+white =   '#d1d1d1' # Un gris claro/blanco roto igual al de QTerminal
+
+[colors.bright]
+black =   '#565b6e'
+red =     '#ff5189' 
+green =   '#c1ff4d'
+yellow =  '#ffe066'
+blue =    '#59e3ff'
+magenta = '#d98cff'
+cyan =    '#91ffe7'
+white =   '#FFFFFF' # Blanco brillante para resaltar
+
+[colors.cursor]
+cursor = '#FFFFFF' # Bloque blanco
+text = '#000000'   # Letra negra dentro del bloque
+
+[cursor]
+style = { shape = "Block", blinking = "Off" }
