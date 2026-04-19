@@ -4,7 +4,8 @@ opacity = 0.85
 dynamic_title = true
 
 [font]
-size = 9.0
+# Lo bajamos a 8.5 para que sea sutil, o 8.0 si quieres que sea igual de compacta que QTerminal
+size = 8.5
 normal = { family = "monospace", style = "Regular" }
 
 [colors.primary]
@@ -19,8 +20,8 @@ yellow =  '#ffcc00'
 blue =    '#00d5ff' 
 magenta = '#cc66ff' 
 cyan =    '#48ffda' 
-# Este color (white) es el que usan los archivos .txt en el listado
-white =   '#d1d1d1' # Un gris claro/blanco roto igual al de QTerminal
+# Color de archivos .txt y listados estándar
+white =   '#d1d1d1' 
 
 [colors.bright]
 black =   '#565b6e'
@@ -30,7 +31,7 @@ yellow =  '#ffe066'
 blue =    '#59e3ff'
 magenta = '#d98cff'
 cyan =    '#91ffe7'
-white =   '#FFFFFF' # Blanco brillante para resaltar
+white =   '#FFFFFF' 
 
 [colors.cursor]
 cursor = '#FFFFFF' # Bloque blanco
